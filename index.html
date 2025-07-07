@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Dhrumil Parmar - Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -17,42 +18,43 @@
 
     .profile-container {
       background-color: #000;
-      color:rgb(255, 255, 255);
-      padding: 40px;
-      border-radius: 100px;
-      width: 800px;
+      color: #fff;
+      padding: 2.5rem;
+      border-radius: 2rem;
+      width: 100%;
+      max-width: 420px;
       box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
-      text-align: left;
+      text-align: center;
+      box-sizing: border-box;
     }
 
     .profile-container img {
-      width: 140px;
-      height: 140px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
       border: 3px solid rgb(23, 151, 174);
-      margin-right: 2000px;
+      margin-bottom: 1.2rem;
+      margin-right: 0;
     }
 
     .profile-container h1 {
-      margin: 10px 0;
-      margin-right: 600px;
-      padding-bottom: -505px;
-      font-size: 26px;
-      color: rgb(23, 151, 174);;
-
+      margin: 10px 0 5px 0;
+      font-size: 2rem;
+      color: rgb(23, 151, 174);
     }
 
     .profile-container h3 {
       margin: 5px 0 20px 0;
-      font-size: 18px;
-      color: rgb(255, 255, 255);;
+      font-size: 1.1rem;
+      color: #fff;
     }
 
     .profile-container p {
       margin: 8px 0;
-      font-size: 15px;
+      font-size: 1rem;
       color: #cccccc;
+      word-break: break-word;
     }
 
     .cv-button {
@@ -62,7 +64,7 @@
       border: none;
       border-radius: 8px;
       color: #fff;
-      font-size: 16px;
+      font-size: 1rem;
       cursor: pointer;
       text-decoration: none;
       display: inline-block;
@@ -71,6 +73,29 @@
 
     .cv-button:hover {
       background-color: #0d6efd;
+    }
+
+    @media (max-width: 600px) {
+      .profile-container {
+        padding: 1rem;
+        border-radius: 1rem;
+        max-width: 98vw;
+      }
+      .profile-container img {
+        width: 90px;
+        height: 90px;
+      }
+      .profile-container h1 {
+        font-size: 1.3rem;
+      }
+      .profile-container h3 {
+        font-size: 1rem;
+      }
+      .cv-button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
@@ -81,7 +106,7 @@
     <h3>Full Stack Web Developer</h3>
     <p><strong>Email:</strong> pdhrumil109@gmail.com</p>
     <p><strong>Phone:</strong> +91-9870098267</p>
-    <p><strong>Location:</strong> A-302, Bhavnsh Residency Shanti Nagar 1 Opp Central Bank Nageswar Jamnagar road Rajkot</p>
+    <p><strong>Location:</strong> A-302, Bhavnsh Residency Shanti Nagar 1 Opp Central Bank Nageswar Jamnagar road Rajkot</p>
     <p><strong>Skills:</strong> PHP, HTML, CSS, JavaScript, MySQL</p>
     <a href="Dhrumil_CV.pdf" target="_blank" class="cv-button" download>📄 Download CV</a>
   </div>
